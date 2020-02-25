@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+    var SeriesTitle = "The Amazing Spiderman";
+    var IssueNumber = 700;
+    var description = "<p>In this issue spider man is consumed by a dark viscious liquid...... <strong>Could it mean Venom is coming back<strong></p>";
+    var Artists = new string[] {
+        "Script: Dan Middleton",
+        "Pencils: Shikparak Singh",
+        "Inks: Victor Shabalala",
+        "Colors: Mbali Shozi",
+        "Letters: Shareek Parker"
+
+    };
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        
+        <h1>@SeriesTitle</h1>
+        <h3>Issue @IssueNumber</h3>
+        <h5>Description:</h5>
+        <p>@Html.Raw(description)</p>
+        <h5>Artists</h5>
+        <p>@Artists</p>
+        
+    </div>
+</body>
+</html>

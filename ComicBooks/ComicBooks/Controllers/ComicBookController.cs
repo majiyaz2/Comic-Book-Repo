@@ -4,12 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ComicBookApplication.Controllers
+namespace ComicBooks.Controllers
 {
-    public class ComicBooksController : Controller
+    public class ComicBookController : Controller
     {
-        public ActionResult Detail() {
-
+       
+        public ActionResult Detail()
+        {
             return View();
         }
     }
